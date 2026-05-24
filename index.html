@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BudBrothaz | Premium Curation</title>
+  <meta name="description" content="The definitive standard in premium curation. B2B and B2C portals.">
+  
+  <!-- SEO & Favicon -->
+  <link rel="icon" href="assets/logo.png" type="image/png">
+  
+  <!-- Premium Style -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="holographic-bg">
+
+  <!-- Navigation -->
+  <nav>
+    <div class="logo-container" data-animate="slide-left" style="transition-delay: 100ms;">
+      <img src="assets/logo.png" alt="BudBrothaz Logo" class="logo-img">
+      <span class="serif-heading text-2xl tracking-tighter uppercase font-bold" style="font-size: 24px; font-weight: 700;">
+        BUD<span class="holographic-text italic" style="font-style: italic;">BROTHAZ</span>
+      </span>
+    </div>
+    <div class="flex gap-8 text-[10px] uppercase tracking-[0.4em] font-bold" data-animate="slide-right" style="display: flex; gap: 32px; transition-delay: 100ms;">
+      <a class="hover:emerald-text" href="#shop">Retail</a>
+      <a class="hover:emerald-text" href="#wholesale">B2B</a>
+    </div>
+  </nav>
+
+  <main>
+    
+    <!-- Hero Section -->
+    <section class="hero-section">
+      <div data-animate="fade-in" style="transition-delay: 200ms;">
+        <span class="hero-sub">Established 2026</span>
+        <h1 class="serif-heading hero-title">
+          PURE <br>
+          <span class="holographic-text">EXCELLENCE</span>
+        </h1>
+      </div>
+      
+      <div class="cta-grid" data-animate="scale-up" style="transition-delay: 400ms;">
+        <a class="btn-emerald" href="#wholesale">Partners Portal</a>
+        <a class="btn-outline" href="#shop">Retail Collection</a>
+      </div>
+    </section>
+
+    <!-- Visionary CEO Section -->
+    <section class="visionary-section">
+      <div class="section-container">
+        <!-- Left side: CEO Portrait Card -->
+        <div class="visionary-img-container" data-animate="slide-left">
+          <div class="luxury-card aspect-3-4">
+            <img src="assets/ceo.jpg" alt="BudBrothaz CEO & Founder" class="ceo-image">
+          </div>
+        </div>
+        
+        <!-- Right side: Quote & Title -->
+        <div class="visionary-text-container" data-animate="slide-right">
+          <span class="holographic-text visionary-tag">Our Visionary</span>
+          <h2 class="serif-heading visionary-heading">CEO <span class="italic" style="font-style: italic;">&amp;</span> Founder</h2>
+          <p class="visionary-quote">
+            &quot;BudBrothaz was founded on a simple principle: that quality should never be compromised. We don't just supply products; we curate experiences for those who value the superlative. As we lead the industry into 2026 and beyond, our commitment to excellence remains absolute.&quot;
+          </p>
+          <div class="divider"></div>
+          <p class="serif-heading visionary-title">Master Curator</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sponsoring Partners Section -->
+    <section class="partners-section">
+      <div class="max-w-7xl mx-auto">
+        <h3 class="partners-title" data-animate="fade-in">Sponsoring Partners</h3>
+        <div class="partners-grid" data-animate="scale-up">
+          <span class="serif-heading partner-logo">Emerald Labs</span>
+          <span class="serif-heading partner-logo">Prism Distribution</span>
+          <span class="serif-heading partner-logo">CannaLux</span>
+          <span class="serif-heading partner-logo">Vortex Organics</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials-section">
+      <div class="testimonials-header" data-animate="fade-in">
+        <h2 class="serif-heading">Connoisseur <span class="holographic-text">Voices</span></h2>
+        <p>Excellence verified by our community</p>
+      </div>
+      
+      <div class="testimonials-grid">
+        <!-- Testimonial 1 -->
+        <div class="luxury-card testimonial-card" data-animate="fade-in" style="transition-delay: 100ms;">
+          <div class="star-rating">★★★★★</div>
+          <p class="testimonial-text">
+            &quot;The quality is simply unmatched. A true connoisseur's dream.&quot;
+          </p>
+          <div class="testimonial-author-line"></div>
+          <p class="testimonial-author">Julian V.</p>
+        </div>
+
+        <!-- Testimonial 2 -->
+        <div class="luxury-card testimonial-card" data-animate="fade-in" style="transition-delay: 200ms;">
+          <div class="star-rating">★★★★★</div>
+          <p class="testimonial-text">
+            &quot;Seamless B2B experience. Pricing is transparent and product is top-tier.&quot;
+          </p>
+          <div class="testimonial-author-line"></div>
+          <p class="testimonial-author">Sipho M.</p>
+        </div>
+
+        <!-- Testimonial 3 -->
+        <div class="luxury-card testimonial-card" data-animate="fade-in" style="transition-delay: 300ms;">
+          <div class="star-rating">★★★★★</div>
+          <p class="testimonial-text">
+            &quot;The holographic packaging is as premium as the product inside.&quot;
+          </p>
+          <div class="testimonial-author-line"></div>
+          <p class="testimonial-author">Elena R.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="footer-content" data-animate="fade-in">
+        <img src="assets/logo.png" alt="Logo" class="footer-logo">
+        <div class="serif-heading footer-brand">
+          BUD<span class="emerald-text italic" style="font-style: italic;">BROTHAZ</span>
+        </div>
+        <div class="footer-copy">Curated with Excellence &copy; 2026</div>
+      </div>
+    </footer>
+
+  </main>
+
+  <!-- Interactive Scripts -->
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      // Intersection Observer for scroll animations
+      const animElements = document.querySelectorAll("[data-animate]");
+      
+      const observerOptions = {
+        root: null,
+        rootMargin: "0px 0px -80px 0px",
+        threshold: 0.15
+      };
+      
+      const observer = new IntersectionObserver((entries, obs) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add("animated");
+            obs.unobserve(entry.target);
+          }
+        });
+      }, observerOptions);
+      
+      animElements.forEach(el => observer.observe(el));
+      
+      // Auto-trigger animations for elements in viewport immediately
+      setTimeout(() => {
+        animElements.forEach(el => {
+          const rect = el.getBoundingClientRect();
+          if (rect.top >= 0 && rect.bottom <= (window.innerHeight || document.documentElement.clientHeight)) {
+            el.classList.add("animated");
+          }
+        });
+      }, 100);
+    });
+  </script>
+</body>
+</html>
