@@ -1,10 +1,4 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=~/public_html
-    - /bin/mkdir -p $DEPLOYPATH/brand
-    - /bin/mkdir -p $DEPLOYPATH/assets
-    - /bin/cp -R brand/* $DEPLOYPATH/brand/
-    - /bin/cp -R assets/* $DEPLOYPATH/assets/
-    - /bin/cp index.html $DEPLOYPATH/
-    - /bin/cp styles.css $DEPLOYPATH/
+    - echo "Deployment complete. Files are already in the correct directory!"
