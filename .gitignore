@@ -1,0 +1,8 @@
+.clj-kondo/
+.lsp/
+.snapshots/
+.vscode/
+.idea/
+*.log
+Thumbs.db
+.DS_Store

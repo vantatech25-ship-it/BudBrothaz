@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>BudBrothaz | Partners Portal (B2B)</title>
+  <meta name="description" content="Access premium bulk distribution for private clubs, dispensaries, and retail partners."/>
+  <link rel="icon" href="brand/logo.png" sizes="256x256" type="image/x-icon"/>
+  <link rel="stylesheet" href="styles.css"/>
+  <style>
+    .input-field {
+      width: 100%;
+      background: rgba(255, 255, 255, 0.02);
+      border: 1px solid rgba(255, 255, 255, 0.05);
+      padding: 1rem;
+      color: #fff;
+      font-size: 14px;
+      border-radius: 2px;
+      margin-bottom: 1rem;
+      transition: all 0.3s;
+    }
+    .input-field:focus {
+      outline: none;
+      border-color: var(--accent);
+      background: rgba(80, 200, 120, 0.02);
+    }
+    .qty-input {
+      width: 80px;
+      background: rgba(0, 0, 0, 0.5);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      padding: 0.5rem;
+      color: var(--accent);
+      font-weight: 700;
+      text-align: center;
+      border-radius: 2px;
+      transition: all 0.3s;
+    }
+    .qty-input:focus {
+      outline: none;
+      border-color: var(--accent);
+    }
+    .badge-premium {
+      background: rgba(80, 200, 120, 0.1);
+      color: var(--accent);
+      border: 1px solid rgba(80, 200, 120, 0.2);
+      padding: 0.3rem 0.8rem;
+      border-radius: 2px;
+      font-size: 9px;
+      text-transform: uppercase;
+      letter-spacing: 0.15em;
+      font-weight: 700;
+    }
+  </style>
+</head>
+<body class="inter_fe8b9d92-module__LINzvG__variable playfair_display_fa003182-module__E_H7JW__variable antialiased">
+  <main class="min-h-screen bg-background text-foreground overflow-x-hidden flex flex-col">
+    
+    <!-- Navigation -->
+    <nav class="fixed top-0 w-full z-50 p-8 flex justify-between items-center bg-background/40 backdrop-blur-xl border-b border-white/5">
+      <a href="index.html" class="flex items-center gap-4 hover:opacity-80 transition-opacity">
+        <img src="brand/logo.png" alt="Logo" class="w-12 h-12 shadow-[0_0_20px_rgba(80,200,120,0.3)] rounded-full"/>
+        <span class="serif-heading text-2xl tracking-tighter uppercase font-bold text-foreground">BUD<span class="holographic-text italic">BROTHAZ</span></span>
+      </a>
+      
+      <div class="flex gap-8 text-[10px] uppercase tracking-[0.4em] font-bold">
+        <a class="hover:emerald-text transition-colors" href="shop.html">Retail</a>
+        <a class="hover:emerald-text transition-colors text-emerald-400" href="wholesale.html">B2B</a>
+      </div>
+    </nav>
+
+    <!-- Hero Header -->
+    <section class="relative pt-40 pb-20 px-6 text-center bg-zinc-950/20">
+      <div class="absolute top-0 left-1/2 -translate-x-1/2 w-full h-px bg-gradient-to-r from-transparent via-emerald-500/20 to-transparent"></div>
+      <span class="text-[10px] uppercase tracking-[0.6em] text-emerald-400 mb-4 block font-bold">Partners Portal</span>
+      <h1 class="serif-heading text-5xl md:text-7xl mb-4 font-black">B2B <span class="holographic-text">DISTRIBUTION</span></h1>
+      <p class="text-zinc-500 uppercase tracking-widest text-xs max-w-2xl mx-auto">Compliant bulk logistics and lab-certified supply pipelines for premium private dispensaries, licensed clubs, and wellness brands.</p>
+    </section>
+
+    <!-- B2B Value Props -->
+    <section class="py-16 border-y border-white/5 bg-zinc-950/40 px-6">
+      <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-12">
+        <div class="text-center md:text-left">
+          <span class="text-emerald-400 text-3xl mb-4 block">✓</span>
+          <h3 class="serif-heading text-xl uppercase font-bold mb-2">CoA Certified</h3>
+          <p class="text-zinc-400 text-sm font-light leading-relaxed">Every bulk batch undergoes full chemical and biological profiling (Emerald Labs) ensuring supreme cleanliness and safety.</p>
+        </div>
+        <div class="text-center md:text-left">
+          <span class="text-emerald-400 text-3xl mb-4 block">✓</span>
+          <h3 class="serif-heading text-xl uppercase font-bold mb-2">Secure Logistics</h3>
+          <p class="text-zinc-400 text-sm font-light leading-relaxed">Fully trackable, temperature-controlled delivery options ensuring prompt distribution throughout South Africa.</p>
+        </div>
+        <div class="text-center md:text-left">
+          <span class="text-emerald-400 text-3xl mb-4 block">✓</span>
+          <h3 class="serif-heading text-xl uppercase font-bold mb-2">Brand Assets</h3>
+          <p class="text-zinc-400 text-sm font-light leading-relaxed">Access to premium retail counter stands, display containers, and digital marketing materials to support sales.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Bulk Calculator & Inventory -->
+    <section class="py-20 px-6 max-w-7xl mx-auto w-full grid grid-cols-1 lg:grid-cols-3 gap-12 flex-grow">
+      
+      <!-- Left side: Products List & Quantities -->
+      <div class="lg:col-span-2 space-y-6">
+        <h2 class="serif-heading text-3xl font-bold uppercase tracking-wider mb-6">Bulk Inventory & Calculator</h2>
+        
+        <!-- Bulk Product 1: Maluti Gold -->
+        <div class="luxury-card p-6 flex flex-col md:flex-row items-center gap-6">
+          <img src="assets/maluti_gold.png" alt="Maluti Gold Bulk" class="w-24 h-24 object-cover bg-black border border-white/5 rounded-sm" />
+          <div class="flex-grow text-center md:text-left">
+            <div class="flex flex-wrap justify-center md:justify-start items-center gap-3 mb-2">
+              <h3 class="serif-heading text-xl font-bold uppercase">Maluti Gold (Bulk)</h3>
+              <span class="badge-premium">CoA Clean</span>
+            </div>
+            <p class="text-zinc-400 text-xs font-light mb-2">Drakensberg mountain cultivar. Clean greenhouse flower, hand-trimmed.</p>
+            <div class="text-xs text-zinc-500 uppercase tracking-widest">Base Rate: R 2,200 per 100g Pack</div>
+          </div>
+          <div class="flex flex-col items-center gap-2">
+            <span class="text-[10px] text-zinc-400 uppercase tracking-wider">Packs (100g)</span>
+            <input type="number" min="0" value="0" oninput="calculateTotal()" id="qty-1" class="qty-input" />
+          </div>
+        </div>
+
+        <!-- Bulk Product 2: Durban Poison -->
+        <div class="luxury-card p-6 flex flex-col md:flex-row items-center gap-6">
+          <img src="assets/durban_poison.png" alt="Durban Poison Bulk" class="w-24 h-24 object-cover bg-black border border-white/5 rounded-sm" />
+          <div class="flex-grow text-center md:text-left">
+            <div class="flex flex-wrap justify-center md:justify-start items-center gap-3 mb-2">
+              <h3 class="serif-heading text-xl font-bold uppercase">Durban Poison (Bulk)</h3>
+              <span class="badge-premium">Top Shelf</span>
+            </div>
+            <p class="text-zinc-400 text-xs font-light mb-2">Pure local sativa. Greenhouse craft batch, massive resin profile.</p>
+            <div class="text-xs text-zinc-500 uppercase tracking-widest">Base Rate: R 2,600 per 100g Pack</div>
+          </div>
+          <div class="flex flex-col items-center gap-2">
+            <span class="text-[10px] text-zinc-400 uppercase tracking-wider">Packs (100g)</span>
+            <input type="number" min="0" value="0" oninput="calculateTotal()" id="qty-2" class="qty-input" />
+          </div>
+        </div>
+
+        <!-- Bulk Product 3: Honey Oil Drops -->
+        <div class="luxury-card p-6 flex flex-col md:flex-row items-center gap-6">
+          <img src="assets/honey_oil.png" alt="Honey Oil Wholesale" class="w-24 h-24 object-cover bg-black border border-white/5 rounded-sm" />
+          <div class="flex-grow text-center md:text-left">
+            <div class="flex flex-wrap justify-center md:justify-start items-center gap-3 mb-2">
+              <h3 class="serif-heading text-xl font-bold uppercase">Honey Oil (Wholesale)</h3>
+              <span class="badge-premium">Extract</span>
+            </div>
+            <p class="text-zinc-400 text-xs font-light mb-2">Pure CO2 oil. Batch boxed for dispensary retail displays.</p>
+            <div class="text-xs text-zinc-500 uppercase tracking-widest">Base Rate: R 4,500 per 10-Unit Carton</div>
+          </div>
+          <div class="flex flex-col items-center gap-2">
+            <span class="text-[10px] text-zinc-400 uppercase tracking-wider">Cartons (10x)</span>
+            <input type="number" min="0" value="0" oninput="calculateTotal()" id="qty-3" class="qty-input" />
+          </div>
+        </div>
+
+        <!-- Bulk Product 4: Artisan Pre-Rolls Bulk -->
+        <div class="luxury-card p-6 flex flex-col md:flex-row items-center gap-6">
+          <img src="assets/pre_roll_box.png" alt="Artisan Pre-rolls Bulk" class="w-24 h-24 object-cover bg-black border border-white/5 rounded-sm" />
+          <div class="flex-grow text-center md:text-left">
+            <div class="flex flex-wrap justify-center md:justify-start items-center gap-3 mb-2">
+              <h3 class="serif-heading text-xl font-bold uppercase">Pre-Roll Boxes (Bulk)</h3>
+              <span class="badge-premium">Carton Box</span>
+            </div>
+            <p class="text-zinc-400 text-xs font-light mb-2">Craft display boxes, pre-packed with 10 rolls each. Ready for shelf.</p>
+            <div class="text-xs text-zinc-500 uppercase tracking-widest">Base Rate: R 3,800 per 10-Box Pack</div>
+          </div>
+          <div class="flex flex-col items-center gap-2">
+            <span class="text-[10px] text-zinc-400 uppercase tracking-wider">Packs (10x Box)</span>
+            <input type="number" min="0" value="0" oninput="calculateTotal()" id="qty-4" class="qty-input" />
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Right side: Partner Inquiry Form & Estimated Cost -->
+      <div class="luxury-card p-8 flex flex-col h-fit">
+        <span class="text-[9px] uppercase tracking-[0.3em] text-emerald-400 mb-2 block font-bold">Inquiry Summary</span>
+        <h3 class="serif-heading text-3xl font-bold uppercase tracking-wide mb-6">Partner Inquiry</h3>
+        
+        <!-- Summary metrics -->
+        <div class="space-y-3 pb-6 border-b border-white/5 mb-6 text-sm">
+          <div class="flex justify-between">
+            <span class="text-zinc-500">Bulk Flower Weight:</span>
+            <span id="summary-weight" class="font-bold text-white">0g</span>
+          </div>
+          <div class="flex justify-between">
+            <span class="text-zinc-500">Extracts & Displays:</span>
+            <span id="summary-items" class="font-bold text-white">0 Units</span>
+          </div>
+          <div class="flex justify-between items-end pt-2 border-t border-white/5">
+            <span class="text-zinc-400 uppercase tracking-wider text-xs font-bold">Estimated Cost</span>
+            <span id="summary-cost" class="text-emerald-400 text-2xl font-black tracking-tight">R 0</span>
+          </div>
+        </div>
+
+        <!-- Application Form -->
+        <form class="space-y-4" id="b2b-form" onsubmit="event.preventDefault();">
+          <input type="text" id="b2b-name" placeholder="Contact Person Name" required class="input-field" />
+          <input type="text" id="b2b-company" placeholder="Establishment / Club Name" required class="input-field" />
+          <input type="text" id="b2b-license" placeholder="Licence / Club Reg No. (Optional)" class="input-field" />
+          <input type="email" id="b2b-email" placeholder="Business Email" required class="input-field" />
+          <input type="tel" id="b2b-phone" placeholder="Contact Number (WhatsApp)" required class="input-field" />
+          
+          <button onclick="submitWholesale()" class="btn-emerald w-full flex items-center justify-center gap-2 pt-4">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
+              <path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.907h.004c4.368 0 7.926-3.558 7.93-7.93a7.897 7.897 0 0 0-2.326-5.617zm-5.61 11.633a6.852 6.852 0 0 1-3.473-.949l-.249-.148-2.507.659.67-2.443-.162-.258a6.852 6.852 0 0 1-1.025-3.6A6.849 6.849 0 0 1 8.003 1.046c3.774 0 6.85 3.08 6.853 6.852 0 1.87-.725 3.63-2.04 4.948a6.827 6.827 0 0 1-4.837 2.006zm3.612-4.903c-.196-.097-1.162-.574-1.341-.639-.179-.065-.31-.097-.44.097-.13.196-.505.639-.619.763-.114.124-.227.137-.423.039-.196-.097-.828-.305-1.577-.973-.583-.519-.976-1.161-1.09-1.356-.114-.195-.012-.3-.111-.397-.089-.089-.196-.229-.296-.34-.1-.11-.133-.19-.2-.33-.067-.137-.034-.258-.017-.356.017-.097.13-.31.196-.42.065-.11.108-.188.163-.31.054-.124.027-.23-.008-.328-.035-.097-.31-.763-.424-1.036-.112-.27-.224-.233-.31-.237-.079-.004-.17-.004-.26-.004-.09 0-.236.033-.36.168-.124.137-.474.463-.474 1.13 0 .666.484 1.309.551 1.399.068.09 1.004 1.534 2.433 2.15.34.147.604.234.81.3.342.109.654.094.9.057.273-.041.162-.574.629-1.039.065-.065.114-.143.163-.23.05-.088.027-.168-.013-.207z"/>
+            </svg>
+            Send Bulk Inquiry
+          </button>
+        </form>
+      </div>
+
+    </section>
+
+    <!-- Footer -->
+    <footer class="p-16 border-t border-white/5 bg-black text-center relative overflow-hidden">
+      <div class="absolute top-0 left-1/2 -translate-x-1/2 w-full h-px bg-gradient-to-r from-transparent via-emerald-500/50 to-transparent"></div>
+      <div class="flex flex-col items-center gap-6">
+        <img src="brand/logo.png" alt="Logo" class="w-12 h-12 grayscale opacity-20"/>
+        <div class="serif-heading text-2xl font-bold">BUD<span class="emerald-text italic">BROTHAZ</span></div>
+        <div class="text-[10px] uppercase tracking-[0.6em] text-zinc-800 font-bold">Curated with Excellence © 2026</div>
+      </div>
+    </footer>
+
+  </main>
+
+  <script>
+    // Rates configuration
+    const rates = {
+      1: 2200, // Maluti Gold bulk per 100g
+      2: 2600, // Durban Poison bulk per 100g
+      3: 4500, // Honey Oil per 10-unit carton
+      4: 3800  // Pre-rolls per 10-box pack
+    };
+
+    // Calculate totals dynamically
+    function calculateTotal() {
+      const q1 = parseInt(document.getElementById('qty-1').value) || 0;
+      const q2 = parseInt(document.getElementById('qty-2').value) || 0;
+      const q3 = parseInt(document.getElementById('qty-3').value) || 0;
+      const q4 = parseInt(document.getElementById('qty-4').value) || 0;
+
+      // Weight calculation (100g per pack for q1 and q2)
+      const totalWeight = (q1 + q2) * 100;
+      document.getElementById('summary-weight').textContent = `${totalWeight}g`;
+
+      // Extract/items count (10 drop jars per carton, 10 gift packs per display pack)
+      const totalItems = (q3 * 10) + (q4 * 10);
+      document.getElementById('summary-items').textContent = `${totalItems} Units`;
+
+      // Total cost estimation
+      const totalCost = (q1 * rates[1]) + (q2 * rates[2]) + (q3 * rates[3]) + (q4 * rates[4]);
+      document.getElementById('summary-cost').textContent = `R ${totalCost}`;
+
+      return { q1, q2, q3, q4, totalWeight, totalItems, totalCost };
+    }
+
+    // Submit B2B Order details to WhatsApp
+    function submitWholesale() {
+      const name = document.getElementById('b2b-name').value;
+      const company = document.getElementById('b2b-company').value;
+      const license = document.getElementById('b2b-license').value || "Not Provided";
+      const email = document.getElementById('b2b-email').value;
+      const phone = document.getElementById('b2b-phone').value;
+
+      if (!name || !company || !email || !phone) {
+        alert("Please fill in all required partner details.");
+        return;
+      }
+
+      const metrics = calculateTotal();
+      if (metrics.totalCost === 0) {
+        alert("Please specify quantity for at least one bulk inventory item before submitting.");
+        return;
+      }
+
+      // Format WhatsApp details
+      let message = `*BUDBROTHAZ B2B PARTNER APPLICATION & ORDER*\n\n`;
+      message += `*Partner Profile:*\n`;
+      message += `Contact: ${name}\n`;
+      message += `Establishment: ${company}\n`;
+      message += `License/Reg No: ${license}\n`;
+      message += `Email: ${email}\n`;
+      message += `Phone: ${phone}\n\n`;
+      
+      message += `*Bulk Order Details:*\n`;
+      if (metrics.q1 > 0) message += `- Maluti Gold (Bulk 100g) x${metrics.q1} = R ${metrics.q1 * rates[1]}\n`;
+      if (metrics.q2 > 0) message += `- Durban Poison (Bulk 100g) x${metrics.q2} = R ${metrics.q2 * rates[2]}\n`;
+      if (metrics.q3 > 0) message += `- Honey Oil (10x Drops Carton) x${metrics.q3} = R ${metrics.q3 * rates[3]}\n`;
+      if (metrics.q4 > 0) message += `- Pre-roll Pack (10x Box Pack) x${metrics.q4} = R ${metrics.q4 * rates[4]}\n`;
+      
+      message += `\n*Summary:* Flower: ${metrics.totalWeight}g | Display items: ${metrics.totalItems} units\n`;
+      message += `*Estimated Inquiry Value: R ${metrics.totalCost}*`;
+
+      const targetPhone = "27600000000"; // SA commercial wholesale phone number
+      const encodedMsg = encodeURIComponent(message);
+
+      // Open WhatsApp
+      window.open(`https://wa.me/${targetPhone}?text=${encodedMsg}`, '_blank');
+      
+      // Reset form
+      document.getElementById('b2b-form').reset();
+      document.getElementById('qty-1').value = 0;
+      document.getElementById('qty-2').value = 0;
+      document.getElementById('qty-3').value = 0;
+      document.getElementById('qty-4').value = 0;
+      calculateTotal();
+      
+      alert("Redirecting to our B2B account desk on WhatsApp!");
+    }
+  </script>
+</body>
+</html>
